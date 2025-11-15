@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "icon": "img.png",
+    "name": "Guichet Rabat",
+    "role": "Admin",
+    "statut": "Actif",
+    "favori": false
+  }
+
+]
