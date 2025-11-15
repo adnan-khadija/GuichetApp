@@ -45,6 +45,53 @@ GuichetApp/
   cd GuichetApp
 ```
 2.**Installer les dépendances**
+ ``` bash
+npm install
+# ou
+yarn install
+```
+
+3.**Démarrer l'application**
+``` bash
+expo start
+ ```
+4. **Lancer sur Android**
+
+Scanner le QR code avec l'app Expo Go (Android)
+Ou utiliser :``` bash expo start --android ```
+
+## Utilisation
+- Créer un guichet
+- Cliquer sur le bouton "+ Ajouter"
+- Remplir les champs :
+Nom du guichet
+Rôle (Administrateur, Gestionnaire, Opérateur)
+Statut (Actif, Inactif, En maintenance)
+Image (optionnel, PNG/JPG 100x100 px, max 2 MB)
+Cliquer Valider
+- Rechercher
+- Utiliser la barre de recherche pour filtrer par nom ou rôle.
+
+- Marquer en favoris
+Cliquer sur l'icône ⭐ sur une carte de guichet.
+
+- Supprimer
+Cliquer sur le menu (⋮) et sélectionner Supprimer.
+
+## Générer un APK
+Avec EAS Build
+1.**Se connecter à Expo**
+``` bash
+eas login
+```
+2 **Configurer le build**
+``` bash
+eas build --platform android --profile production
+```
+3.Télécharger l'APK
+
+Accédez à https://expo.dev et récupérez votre APK
+
 
 
 
